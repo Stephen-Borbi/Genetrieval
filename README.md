@@ -6,4 +6,4 @@ A web interface that uses the Entrez API and Python to retrieve information abou
 The project uses the Biopython library to interface with the Entrez API and retrieve gene information based on a user's query on the website
 The project is implemented as a Flask app
 
-http://127.0.0.1:5000/
+  ### link for Preview http://127.0.0.1:5000/
