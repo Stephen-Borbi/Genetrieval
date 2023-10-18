@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html data-wf-domain="Gen" data-wf-page="652553ce7d2bb7e3e86f7d58"
+  data-wf-site="5fe0e47a4d54790bc44f71a3" data-wf-status="1">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Search Results</title>
+  <meta content="Search Results" property="og:title" />
+  <meta content="Search Results" property="twitter:title" />
+  <meta content="width=device-width, initial-scale=1" name="viewport" />
+  <meta content="Webflow" name="generator" />
+  <link
+    href="static\result.css"
+    rel="stylesheet" type="text/css" />
+  
+</head>
+
+<body>
+  <div class="w-container">
+    <h1>Genetrieval Search results</h1>
+    <div>
+      <div class="search-result-items">
+        <div><a href="/sample-result">YOU ARE VIEWING THE SAMPLE RESULTS</a>
+          <div>{% if gene_info %}
+            <h1>{{ gene_info['Entrezgene_gene']['Gene-ref']['Gene-ref_locus'] }}</h1>
+            <p>{{ gene_info['Entrezgene_summary'] }}</p>
+          {% else %}
+            <p>No results found.</p>
+          {% endif %}
+        </div>
+        
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=5fe0e47a4d54790bc44f71a3"
+    type="text/javascript" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+    crossorigin="anonymous"></script>
+  <script src="static/result.js"
+    type="text/javascript"></script>
+</body>
+
+</html>
