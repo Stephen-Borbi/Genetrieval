@@ -5,5 +5,4 @@ This project is a simple web interface for users to input their queries and view
 A web interface that uses the Entrez API and Python to retrieve information about genes from the NCBI database. 
 The project uses the Biopython library to interface with the Entrez API and retrieve gene information based on a user's query on the website
 The project is implemented as a Flask app
-
-  ### link for Preview http://127.0.0.1:5000/
+### link for Preview http://127.0.0.1:5000/
